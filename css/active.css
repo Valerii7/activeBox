@@ -463,6 +463,10 @@ color:#fff;
 /* планшет портретная ориентация */
 @media (max-width:770px)
 {
+    .section
+    {
+        padding: 20px;
+    }
     .intro__title
     {
         font-size: 43px;
@@ -508,6 +512,22 @@ color:#fff;
     {
         width: 49%;
         border:1px solid red;
+        margin-bottom: 15px;
+    }
+    .location
+    {
+        flex-wrap: wrap;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .location__item
+    {
+    width: 100%;
+    margin-bottom: 30px;
+    }
+    .location__title
+    {
+        margin-bottom: 10px;
     }
 }
 
